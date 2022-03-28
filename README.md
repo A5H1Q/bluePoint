@@ -1,5 +1,10 @@
-# Change presentation slides using Bluetooth headset buttons
+# bluePoint
 
-- Remaps Media_Play_Pause event to SPACE key (Advance a slide/animation)
+![demo](screenshots/blue.png)
 
-- Remaps Media_Next and Media_Prev to LEFT ARROW ley (Goto Previous slide)
+Change powerpoint slides or create switch macros using Bluetooth headset buttons. (Programmed in C++ using win32 Apis)
+
+## Default settings
+
+- Remaps Media_Play_Pause event to SPACE key
+- Remaps Media_Next and Media_Prev to LEFT ARROW key
